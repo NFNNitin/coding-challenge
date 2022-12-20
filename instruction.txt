@@ -1,0 +1,13 @@
+set the virtual env:
+
+pip install virtualenvwrapper-win
+mkvirtualenv myenv
+workon myenv
+pip install -r requrements.txt
+
+Dump the data to sql db:
+python data_migrate.py
+	
+Run the application:
+python manage.py runserver
+	
